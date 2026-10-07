@@ -34,6 +34,7 @@ function Dashboard() {
       {/* HEADER */}
 
       <div className="page-header">
+
         <div>
           <h1>Student Dashboard</h1>
 
@@ -48,6 +49,7 @@ function Dashboard() {
         >
           View Job Openings
         </Link>
+
       </div>
 
 
@@ -241,6 +243,171 @@ function Dashboard() {
             </div>
 
           </div>
+
+        </div>
+
+      </div>
+
+
+      {/* PLACEMENT READINESS */}
+
+      <div className="dashboard-card placement-readiness">
+
+        <div className="readiness-header">
+
+          <div>
+            <h2>🎯 Placement Readiness</h2>
+
+            <p>
+              Check your preparation level before attending placements.
+            </p>
+          </div>
+
+          <div className="readiness-score">
+
+            <strong>78%</strong>
+
+            <span>
+              Good Preparation
+            </span>
+
+          </div>
+
+        </div>
+
+
+        {/* APTITUDE */}
+
+        <div className="skill-progress">
+
+          <div className="skill-info">
+
+            <span>
+              🧠 Aptitude
+            </span>
+
+            <strong>
+              80%
+            </strong>
+
+          </div>
+
+          <div className="readiness-bar">
+
+            <div
+              className="readiness-fill"
+              style={{
+                width: "80%",
+              }}
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        {/* TECHNICAL SKILLS */}
+
+        <div className="skill-progress">
+
+          <div className="skill-info">
+
+            <span>
+              💻 Technical Skills
+            </span>
+
+            <strong>
+              70%
+            </strong>
+
+          </div>
+
+          <div className="readiness-bar">
+
+            <div
+              className="readiness-fill"
+              style={{
+                width: "70%",
+              }}
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        {/* COMMUNICATION */}
+
+        <div className="skill-progress">
+
+          <div className="skill-info">
+
+            <span>
+              🗣️ Communication
+            </span>
+
+            <strong>
+              85%
+            </strong>
+
+          </div>
+
+          <div className="readiness-bar">
+
+            <div
+              className="readiness-fill"
+              style={{
+                width: "85%",
+              }}
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        {/* RESUME */}
+
+        <div className="skill-progress">
+
+          <div className="skill-info">
+
+            <span>
+              📄 Resume
+            </span>
+
+            <strong>
+              90%
+            </strong>
+
+          </div>
+
+          <div className="readiness-bar">
+
+            <div
+              className="readiness-fill"
+              style={{
+                width: "90%",
+              }}
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        {/* SKILL GAP */}
+
+        <div className="skill-gap">
+
+          <strong>
+            ⚠️ Skill to Improve
+          </strong>
+
+          <p>
+            Your technical skill preparation is lower than the other areas.
+            Focus more on technical interview questions and practical skills.
+          </p>
 
         </div>
 
